@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import axios from "axios";
 function A() {
-     
+   const a=5;  
   const [board, setBoard] = useState(["", "", "", " ", "", "", "", "", ""]);
   const [player, setPlayer] = useState("O");
   const [result, setResult] = useState({ winner: "none", state: "none" });
@@ -178,6 +178,7 @@ function A() {
         </div>
       </div>
     </div>
+    <h1>{a}</h1>
     </>
   );
 }

@@ -41,3 +41,7 @@ body {
 .square:active {
   background-color: #64f4c4;
 }
+h1{
+  text-align: center;
+  background-color: aqua;
+}
