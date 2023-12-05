@@ -23,23 +23,7 @@ function A() {
     }
   }, [board]);
 
-  // useEffect(async() => {
-  //   if (result.state !== "none") {
-  //     try{
-  //   //  await axios.post('http://localhost:8081/count',{
-  //   //     withCredentials: true,
-  //   //   })
-    
-  //   restartGame();
-  //     // setResult({state:"none",winner:"none"})
-  //   }
-  //   catch(err){
-  //     console.log(err);
-  //   }
-
-  //     // alert(`Game Finished! Winning Player: ${result.winner}`);
-  //   }
-  // // }, [result]);
+  
 
   const chooseSquare = (square) => {
     setBoard(
@@ -179,6 +163,7 @@ function A() {
       </div>
     </div>
     <h1>{a}</h1>
+    
     </>
   );
 }
